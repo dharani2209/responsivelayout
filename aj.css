@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+  
+  }
+  
+  .main {
+    float: left;
+    width: 70%;
+    text-align: center;
+    height: 600px;
+    background-color: lightgray;
+  }
+  
+  .aside {
+    background-color:gray;
+    float: left;
+    height: 600px;
+    width: 30%;
+    text-align: center;
+  }
+  #ul-nb {
+    list-style: none;
+    overflow:hidden;
+    background:pink;
+    margin:0;
+    padding:0;  
+    height: 60px;
+  }
+  #ul-nb li a {
+    text-align:center;
+    padding:10px;
+    width:80px;
+  }
+  
+  #ul-nb li {
+    float:left;
+  }
+  
+  #ul-nb li:hover {
+    background:red;
+  }
+  a {
+    display:block;
+  }
+  
+  @media only screen and (max-width: 620px) {
+  .main, .aside, nav {
+      width: 100%;
+      
+    }}
+    
+      
+  
